@@ -3,51 +3,19 @@
 	<head>
 		<!-- A title will be display where the tab bar is -->
 		<title>Marissa Mayer</title>
-		<style type="text/css">
-			body {
-				background-color: #ac92ec;
-			}
-
-			ul {
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-			}
-
-			li {
-				display: inline;
-			}
-
-			a {
-				font-size: 1.2em;
-				color: #fff;
-			}
-
-			#profile {
-				width: 40%;
-				height: 40%;
-			}
-
-			.name {
-				color: pink;
-				font-size: 14pt;
-			}
-
-			#google {
-				color: red;
-				text-decoration: none;
-			}
-		</style>
+		<!-- You must have rel="stylesheet" type="text/css" or else it will not work on some browser -->
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
 	</head>
 	<!-- The body is what you see on a webpage -->
 	<body>
 		<center>
 			<h1>Marissa Mayer</h1>
 			<h4>CEO of Yahoo</h4>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="resume.html">Resume</a></li>
-				<li><a href="contact.html">Contact</a></li>
+			<ul class="hori">
+				<li class="hori"><a href="index.html">Home</a></li>
+				<li class="hori"><a href="resume.html">Resume</a></li>
+				<li class="hori"><a href="contact.html">Contact</a></li>
 			</ul>
 			<img id="profile" src="img/marissa.jpg" alt="Marissa Mayer Profile Picture">
 		</center>

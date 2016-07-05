@@ -1,0 +1,101 @@
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #ac92ec;
+}
+
+body.resume {
+	font-family: 'Oswald', sans-serif;
+	background-color: #a0d468;
+	padding-left: 40px;
+}
+
+body.contact {
+	background-image: url(../img/bg.jpg);
+	background-size: cover;
+	background-position: 0 0;
+	background-color: #ec87c0;
+	color: #fff;
+	margin: 40px;
+}
+
+ul.hori {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li.hori {
+	display: inline;
+}
+
+a {
+	font-size: 1.2em;
+	color: #fff;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #000;
+}
+
+#profile {
+	width: 40%;
+	height: 40%;
+}
+
+.name {
+	color: pink;
+	font-size: 14pt;
+}
+
+#google {
+	color: white;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+ul.sub {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+li.sub {
+	display: inline;
+}
+
+a.resume {
+	color: #6d5830;
+	font-size: 1.2em;
+}
+
+a.resume:hover {
+	color: white;
+	text-transform: uppercase;
+}
+
+a.contact {
+	color: white;
+	font-size: 1.2em;
+}
+
+a.contact:hover {
+	text-transform: uppercase;
+}
+
+.job {
+	color: #2d2d2d;
+	font-weight: 700;
+	font-size: 14pt;
+}
+
+span#number {
+	color: pink;
+	font-size: 1.6em;
+}
+
+span#email {
+	color: rgba(255,255,255,0.8);
+	font-size: 1.6em;
+	background-color: rgba(0,0,0,0.7);
+}
