@@ -1,101 +1,120 @@
 body {
-	font-family: 'Source Sans Pro', sans-serif;
-	background-color: #ac92ec;
+	margin: 0px;
+	font-family: 'Questrial', sans-serif;
+	font-size: 12pt;
+	color: #666666;
 }
 
-body.resume {
-	font-family: 'Oswald', sans-serif;
-	background-color: #a0d468;
-	padding-left: 40px;
-}
 
-body.contact {
-	background-image: url(../img/bg.jpg);
-	background-size: cover;
-	background-position: 0 0;
-	background-color: #ec87c0;
-	color: #fff;
-	margin: 40px;
-}
-
-ul.hori {
-	list-style-type: none;
+h1, h3, h4 {
 	margin: 0;
-	padding: 0;
+	color: white;
 }
 
-li.hori {
-	display: inline;
+#title {
+	color: #6c6c6c;
 }
 
-a {
-	font-size: 1.2em;
-	color: #fff;
-	text-decoration: none;
+#name {
+	color: #ECCAC9;
+	font-weight: 700;
 }
 
-a:hover {
-	color: #000;
+p {
+	line-height: 180%;
+}
+
+.container {
+	margin: auto;
+	text-align: center;
 }
 
 #profile {
 	width: 40%;
-	height: 40%;
+	height: auto;
 }
 
-.name {
-	color: pink;
-	font-size: 14pt;
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+#header-wrapper {
+	background: url(../img/overlay.png);
 }
 
-#google {
-	color: white;
-	font-size: 1.2em;
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+
+#logo {
+	padding: 20px;
+}
+
+#logo h1 {
+	padding: 0.20em 0.9em;
+	font-size: 3.5em;
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu {
+	height: 50px;
+}
+
+#menu ul {
+	padding: 0em 2em;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu li a {
+	display: inline-block;
+	padding: 0em 1.5em;
 	text-decoration: none;
-}
-
-ul.sub {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-li.sub {
-	display: inline;
-}
-
-a.resume {
-	color: #6d5830;
-	font-size: 1.2em;
-}
-
-a.resume:hover {
-	color: white;
+	font-size: 13px;
+	font-weight: 600;
 	text-transform: uppercase;
+	line-height: 60px;
+	color: #3e3e3e;
 }
 
-a.contact {
-	color: white;
-	font-size: 1.2em;
+#menu li:hover a, #menu li.active a {
+	background: #FFF;
+	color: #ECCAC9;
 }
 
-a.contact:hover {
-	text-transform: uppercase;
+
+/*********************************************************************************/
+/* Wrapper                                                                       */
+/*********************************************************************************/
+
+.wrapper {
+	background-color: #FFF;
 }
 
-.job {
-	color: #2d2d2d;
-	font-weight: 700;
-	font-size: 14pt;
+
+/*********************************************************************************/
+/* Homepage                                                                      */
+/*********************************************************************************/
+
+#homepage {
+	width: 1000px;
+	padding: 20px;
 }
 
-span#number {
-	color: pink;
-	font-size: 1.6em;
+/*********************************************************************************/
+/* Resume                                                                        */
+/*********************************************************************************/
+
+#resume {
+	padding: 40px;
 }
 
-span#email {
-	color: rgba(255,255,255,0.8);
-	font-size: 1.6em;
-	background-color: rgba(0,0,0,0.7);
+.google, .yahoo {
+	width: 20%;
+	height: auto;
 }
