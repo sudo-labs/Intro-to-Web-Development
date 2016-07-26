@@ -1,6 +1,6 @@
 body {
 	margin: 0px;
-	font-family: 'Questrial', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 12pt;
 	color: #666666;
 }
@@ -75,7 +75,7 @@ p {
 	display: inline-block;
 	padding: 0em 1.5em;
 	text-decoration: none;
-	font-size: 13px;
+	font-size: 0.9em;
 	font-weight: 600;
 	text-transform: uppercase;
 	line-height: 60px;
